@@ -1,3 +1,88 @@
 body{
-    blue
+    font-family: 'Lato', sans-serif;
+}
+
+.alert-container{
+
+}
+
+
+.callout-container{
+background-image: url("/images/whiskey.jpg");
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom-right;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+
+.quotes-container{
+}
+
+.features-container{
+
+}
+
+/* Block Dividers (<hr> Tags) */
+.block-divider{
+    width: 75px;
+    height: 5px;
+    border: 0;
+}
+
+.block-divider--red{
+background-color: red;
+}
+
+.block-divider--short{
+    width: 35px;
+}
+
+.opaque-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Jumbotron */
+
+.jumbotron{
+    background-color: transparent;
+}
+
+.jumbotron-header{
+    color: #fff;
+    margin-bottom: 4%;
+    font-weight: bold;
+}
+
+.jumbotron .lead{
+    margin: 25px 0;
+    color: #FCF7DF;
+}
+ 
+
+.jumbotron small{
+    color: #d9d9d9;
+    font-size:medium;
+    font-family: 'Brygada 1918', serif; 
+}
+
+/* Buttons cta=(Call To Action button)*/
+
+.btn--cta{
+border-radius: 20px;
+border: none;
+width: 160px;
+}
+
+.btn--orange{
+    background-color: orange;
+
 }
