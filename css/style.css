@@ -41,6 +41,10 @@ background-color: red;
     width: 35px;
 }
 
+.block-divider--long{
+    width: 150px;
+}
+
 .opaque-overlay{
     position: absolute;
     top: 0;
@@ -83,6 +87,15 @@ width: 160px;
 }
 
 .btn--orange{
-    background-color: orange;
+    background-color: #fcf8e3;
+    color: #000;
+    border-color: #fcf8e3;
+}
 
+.btn--orange:hover,
+.btn--orange:active,
+.btn--orange:focus,
+.btn--orange:active:focus{
+    background-color: #d7d3be;
+    border-color: #d7d3be
 }
